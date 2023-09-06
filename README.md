@@ -1,6 +1,6 @@
 # AcceptThirdLeg
 InitializeSecurityContext / AcceptSecurityContext
-``````````````````````````````````````````````````````````````````
+
 client app call CertServerSubmitRequest api. internally AcquireCredentialsHandle/InitializeSecurityContextW called for Negotiate
 ``````````````````````````````````````````````````````````````````
 ntdll.dll!ZwAlpcSendWaitReceivePort + a
