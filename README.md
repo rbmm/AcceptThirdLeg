@@ -1,6 +1,6 @@
 # AcceptThirdLeg
 InitializeSecurityContext / AcceptSecurityContext
-
+``````````````````````````````````````````````````````````````````
 client app call CertServerSubmitRequest api. internally AcquireCredentialsHandle/InitializeSecurityContextW called for Negotiate
 -----------------------------------------------------------------------------------------------------------------------------------
 ntdll.dll!ZwAlpcSendWaitReceivePort + a
@@ -220,6 +220,7 @@ ntdll.dll!RtlUserThreadStart + 21
 only now execute CoreProcessRequest
 ``````````````````````````````````````````````````````````````````
 long CoreProcessRequest(unsigned long,unsigned short const *,unsigned long,unsigned char const *,unsigned short const *,unsigned short const *,unsigned long,unsigned long,_CERTSRV_RESULT_CONTEXT *)
+``````````````````````````````````````````````````````````````````
 
 
 another example with schannel here - https://github.com/rbmm/LDAPS#readme
