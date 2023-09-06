@@ -2,7 +2,7 @@
 InitializeSecurityContext / AcceptSecurityContext
 ``````````````````````````````````````````````````````````````````
 client app call CertServerSubmitRequest api. internally AcquireCredentialsHandle/InitializeSecurityContextW called for Negotiate
------------------------------------------------------------------------------------------------------------------------------------
+``````````````````````````````````````````````````````````````````
 ntdll.dll!ZwAlpcSendWaitReceivePort + a
 rpcrt4.dll!virtual long LRPC_CCALL::SendReceive(_RPC_MESSAGE *) + 169
 rpcrt4.dll!NdrClientCall3 + e7d
