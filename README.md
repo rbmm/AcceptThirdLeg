@@ -1,0 +1,2 @@
+# AcceptThirdLeg
+InitializeSecurityContext / AcceptSecurityContext
